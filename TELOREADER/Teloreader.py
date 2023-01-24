@@ -34,7 +34,7 @@ def parse_arguments():
         "-g",
         default=20,
         type=int,
-        help="Taille maximal d'un gap non télomérique dans le télomère default=20",
+        help="Maximal size of the non-telomere gap between two detected telomere sequences default=20",
     )
     parser.add_argument(
         "-min_mean_window",
